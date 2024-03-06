@@ -2,8 +2,8 @@ package com.workapps.sbipoc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.workapps.feedmsgs.FollowFeedSdk
-import com.workapps.feedmsgs.utils.FollowFeedConfig
+import com.videocx.follow.FollowFeedSdk
+import com.videocx.follow.utils.FollowFeedConfig
 
 class MainActivity : AppCompatActivity() {
     private lateinit var feedMsgLibHelper: FollowFeedSdk
