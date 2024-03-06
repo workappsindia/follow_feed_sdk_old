@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val input = FollowFeedConfig(3675649,"4221df11-66da-4927-85bc-c8a5326cf8eb")
+        val input = FollowFeedConfig(3675649,"4221df11-66da-4927-85bc-c8")
         input.feedUserName="f00001"
         feedMsgLibHelper = FollowFeedSdk.getInstance(input, applicationContext)
         val fragment = feedMsgLibHelper.feedFragment
